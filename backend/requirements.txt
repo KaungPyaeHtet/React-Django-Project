@@ -8,3 +8,4 @@ pytz
 sqlparse
 psycopg2-binary
 python-dotenv
+gunicorn==21.2.0
