@@ -59,10 +59,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://react-django-project-p0rl8s0hv-kaung-pyae-htets-projects.vercel.app',
+    'https://react-django-project-tau.vercel.app',
     'http://127.0.0.1:8000'
 ]
 
