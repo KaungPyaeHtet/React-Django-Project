@@ -62,6 +62,11 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://react-django-project-tau.vercel.app", 
+    "https://blissful-generosity-production.up.railway.app",
+]
+
 CORS_ALLOWED_ORIGINS = [
     'https://react-django-project-tau.vercel.app',
     'http://127.0.0.1:8000'
