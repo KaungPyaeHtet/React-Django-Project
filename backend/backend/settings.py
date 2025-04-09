@@ -62,8 +62,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://react-django-project-p0rl8s0hv-kaung-pyae-htets-projects.vercel.app/',
-    'http://127.0.0.1:8000/'
+    'https://react-django-project-p0rl8s0hv-kaung-pyae-htets-projects.vercel.app',
+    'http://127.0.0.1:8000'
 ]
 
 ROOT_URLCONF = 'backend.urls'
